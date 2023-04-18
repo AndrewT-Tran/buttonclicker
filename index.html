@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-    <script src="script.js"></script>
-    <script> function likes(){
-        alert('Ninja was liked!!')}
     </script>
-    <script>
-        function removeDummy() {
-            var elem = document.getElementById('box');
-            elem.parentNode.removeChild(elem);
-            return false;
+    <script> function likes() {
+            alert('Ninja was liked!!')
         }
     </script>
+    <script>
+        function remove(elem) {
+            elem.parentNode.removeChild(elem);
+        }
+    </script>
+
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +30,9 @@
         </div>
         <div>
 
-            <button class="login" type="button">Login</button>
+            <button id="btn" class="login">Login</button>
+
+            <script src="index.js"></script>
         </div>
     </div>
     <div class="main">
@@ -56,7 +58,8 @@
             <div>
 
                 <h2>Dojonary is defined by YOU!</h2>
-                <input type="button" value="Remove DUMMY" onclick="removeDummy()" /> Add Definition</input>
+
+                <div id="i" , button class="i" onclick="remove(this)">Add Definition</div>
             </div>
 
 

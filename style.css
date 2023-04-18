@@ -51,21 +51,14 @@
     
 }
 
-.likes{
-    width: 80px;
-    height: 30px;
-    border-radius: 10%;
-    background-color: #FFDA65;
-    box-shadow: 3px 3px 3px 3px #323232;
-}
-.login{
+button.login {
     width: 73px;
     padding: 5px;
     color: white;
     background-color:#2C77E4 ;
     box-shadow: 3px 3px 3px 3px #323232;
 }
-.box{
+.i{
     width: 150px;
     padding: 5px;
     margin: 15px;
