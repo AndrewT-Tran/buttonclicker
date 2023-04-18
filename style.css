@@ -7,7 +7,7 @@
 }
 
 .top{
-    width: 820px;
+    width: 810px;
     height: 50px;
     padding: 0;
     display:flex;
@@ -26,12 +26,12 @@
     width: auto;
     border: 2px solid black;
     margin: 20px;
-    padding-left: 15px;
+    padding-right: 15px;
 }
 .box2{
-    width: 250px;
+    width: 240px;
     display: inline-flex;
-    padding: 10px;
+    padding: 5px;
     border: 2px solid black;
 }
 .col{
