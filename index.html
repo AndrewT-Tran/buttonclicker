@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="script.js"></script>
+    <script> function likes(){
+        alert('Ninja was liked!!')}
+    </script>
+    <script>
+        function removeDummy() {
+            var elem = document.getElementById('box');
+            elem.parentNode.removeChild(elem);
+            return false;
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="top">
+        <div class="item">
+            <h1>Dojonary</h1>
+        </div>
+        <div>
+            <input type="text" placeholder="Search..">
+        </div>
+        <div>
+
+            <button class="login" type="button">Login</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="box1">
+
+
+            <div class="col">
+                <div>
+                    <H1>ninja </H1>
+                    <h2>Noun</h2>
+                    <p>Plural: <i>ninjas</i></p>
+                </div>
+                <div>
+                    <button class="likes" onclick="likes()" type="button"> 13 Likes</button>
+                </div>
+
+            </div>
+
+            <div class="col-2">A practioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+            </div>
+        </div>
+        <div class="box2">
+            <div>
+
+                <h2>Dojonary is defined by YOU!</h2>
+                <input type="button" value="Remove DUMMY" onclick="removeDummy()" /> Add Definition</input>
+            </div>
+
+
+        </div>
+        <div class="box1">
+            <div class="col">
+                <div>
+                    <H1>ninja </H1>
+                    <h2>Noun</h2>
+                    <p>Plural: <i>ninjas</i></p>
+                </div>
+                <div>
+                    <button class="likes" onclick="likes()" type="button"> 37 Likes</button>
+                </div>
+
+            </div>
+
+            <div class="col-2">A <a href="#">programmer</a> who breakes down problems with <a href="#">zen</a>-like
+                focus</div>
+        </div>
+
+
+    </div>
+    </div>
+
+</body>
+
+</html>

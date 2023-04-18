@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+.top{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+.main{
+
+    width: 850px;
+    max-height: max-content;
+
+}
+.box1{
+    display: inline-flex;
+    width: 500px;
+    border: 2px solid black;
+    margin: 20px;
+    padding-top: 10px;
+}
+.box2{
+    display: inline-flex;
+    margin: 20px;
+    width: 200px;
+    height:150px;
+    border: 2px solid black;
+}
+.col{
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+}
+.col-2{
+    width: 300px;
+    align-self: center;
+    font-size: 18px;
+}
+.likes{
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #FFDA65;
+    
+}
+
+.likes{
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #FFDA65;
+    box-shadow: 3px 3px 3px 3px #323232;
+}
+.login{
+    width: 73px;
+    padding: 5px;
+    color: white;
+    background-color:#2C77E4 ;
+    box-shadow: 3px 3px 3px 3px #323232;
+}
+.box{
+    width: 150px;
+    padding: 5px;
+    margin: 15px;
+    background-color: #94C37C;
+    box-shadow: 3px 3px 3px 3px #323232;
+}
