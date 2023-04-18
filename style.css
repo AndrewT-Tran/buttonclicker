@@ -1,36 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 *{
-    margin: 0 auto;
     padding: 0;
+    margin: 0 auto;
     font-family: 'Secular One', sans-serif;
 }
 
 .top{
-    width: 800px;
+    width: 820px;
     height: 50px;
-    display: flex;
+    padding: 0;
+    display:flex;
     align-items: center;
     background-color: gray;
 }
+
 .main{
 
-    width: 850px;
-    max-height: max-content;
-
+        width: 850px;
+        vertical-align: middle;
 }
 .box1{
+
     display: inline-flex;
-    width: 500px;
+    width: auto;
     border: 2px solid black;
     margin: 20px;
-    padding-top: 10px;
+    padding-left: 15px;
 }
 .box2{
+    width: 250px;
     display: inline-flex;
-    margin: 20px;
-    width: 200px;
-    height:150px;
+    padding: 10px;
     border: 2px solid black;
 }
 .col{
@@ -42,6 +43,13 @@
     width: 300px;
     align-self: center;
     font-size: 18px;
+}
+.col-3{
+    width: min-content;
+    align-self: center;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
 }
 .likes{
     width: 80px;
@@ -61,7 +69,8 @@ button.login {
 .i{
     width: 150px;
     padding: 5px;
-    margin: 15px;
+    margin: 5px;
     background-color: #94C37C;
     box-shadow: 3px 3px 3px 3px #323232;
+    text-align: center;
 }
